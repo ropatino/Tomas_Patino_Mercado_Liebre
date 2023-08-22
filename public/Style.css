@@ -1,0 +1,243 @@
+header{
+display: flex;
+background-color: #EAC926;
+padding: 15px;
+display: block;
+flex-direction: column;
+justify-content: space-between; 
+}
+
+.lista1{
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+}
+
+
+nav{
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    justify-content: space-between;
+    
+   
+}
+
+nav a{
+font-weight: 400px;
+
+}
+
+nav a:hover{
+
+    color: white;
+}
+
+a ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: #ebebeb;
+margin: 0;
+}
+
+footer{
+background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.footer-section {
+    margin-bottom: 20px;
+
+}
+
+.footer-section h3 {
+    font-size: 18px;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section p:last-child {
+    margin-top: 10px;
+}
+
+.cartelitos{
+color: #1259c3;
+
+}
+
+.logo{
+
+height: 100px;
+max-width: 200px;
+text-align: center;
+}
+
+.logo img{
+display: flex;
+text-align: center;
+
+}
+
+input{
+height: 30px;
+font-size: 24px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+border-radius: 0px;
+}
+
+label {
+font-size: 25px;
+
+}
+
+
+/* ... (Estilos del encabezado y otros) ... */
+
+main {
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 10px;
+   padding-bottom: 10px;
+   
+}
+
+.product-section {
+   
+    color: #666;
+   
+}
+
+.product {
+    border-top: 1px solid #ebebeb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(133, 133, 133, 0.3);
+    border-top: 1px solid #ebebeb;
+    
+}
+
+
+
+img{
+max-width: 100%;
+
+}
+
+.product-box {
+    border: 1px solid #ebebeb;
+   
+    display: inline-block;
+    
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.product-info {
+    margin-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.discount {
+    font-size: 14px;
+    color: #39b54a;
+}
+
+.product-name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.menu{
+    text-align: center;
+    background-color: #1259c3;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 20px;
+    margin: auto;
+    padding-left: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.anuncio{
+    height: auto;
+    text-align: center;
+
+}
+
+
+
+
+.articles{
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo, .login {
+    display: block;
+  }
+  
+  .menu-icon {
+    display: none; 
+  }
+
+  @media (max-width: 375px) {
+    .site,
+    .login {
+        display: none; /* Ocultar los elementos del sitio y login navbar */
+    }
+}
+/* Estilos para versiones desktop y tablet */
+@media (min-width: 768px) {
+    .site,
+    .login {
+        display: block; /* Mostrar los elementos del sitio y login navbar */
+    }
+    
+
+}
+  
+  
